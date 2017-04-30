@@ -14,8 +14,8 @@ type alias Model =
     }
 
 
-init : String -> ( Model, Cmd Msg )
-init path =
+init : ( Model, Cmd Msg )
+init =
     ( { text = "There is no backspace"
       }
     , Cmd.none
